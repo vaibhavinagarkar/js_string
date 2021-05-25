@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>home page</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        var string = "Welcome to Felix ITs ";
+        document.getElementById("demo").innerHTML = string.length;
+    </script>
+
+
+    <p id="demo1"></p>
+    <script>
+        var s1 = "Hello ";
+        var s2 = "World"
+        document.getElementById("demo1").innerHTML = s1 + " " + s2;
+    </script>
+
+
+    <p id="demo2"></p>
+    <script>
+        var s1 = "Hello from JavaScript";
+        var s2 = s1.search('Java');
+        document.getElementById("demo2").innerHTML = s2;
+    </script>
+
+
+    <p id="demo3"></p>
+    <script>
+        var s1 = "Hello from JavaScript";
+        var s2 = s1.slice(8, 15);
+        document.getElementById("demo3").innerHTML = s2;
+    </script>
+
+    <p id="demo4"></p>
+    <script>
+        var s1 = "Hello from JavaScript";
+        var s2 = s1.replace("JavaScript", "JAVASCRIPT");
+        document.getElementById("demo4").innerHTML = s2;
+    </script>
+
+    <P id="Demo5"></P>
+    <script>
+        var s1="Hello from JavaScript";
+        var s2=s1.toLowerCase();
+        var s3=s1.toUpperCase();
+        document.getElementById("Demo5").innerHTML=s2 +"<br>"+s3;
+    </script>
+
+
+
+
+</body>
+
+</html>
